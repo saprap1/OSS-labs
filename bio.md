@@ -1,10 +1,10 @@
-# Open Source Software
+# Open Source Software - Summer 2019
 
 ## Priya Sapra
 
 ## Bio
 I'm a junior CS major. On campus, I'm involved in RCOS, ACM-W, Coding&&Community, and RPI Bhangra. I'm interested in open source (obviously) as well as image processing and computer graphics.  
-![Me](/images/IMG_0240.JPG)
+![Me](/images/IMG_0240.JPG=100x200)
 
 ## Cotnact
 Github: saprap1  
