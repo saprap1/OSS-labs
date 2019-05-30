@@ -3,8 +3,8 @@
 ## Priya Sapra
 
 ## Bio
-I'm a junior CS major. On campus, I'm involved in RCOS, ACM-W, Coding&&Community, and RPI Bhangra. I'm interested in open source (obviously) as well as image processing and computer graphics.  
-![Me](/images/IMG_0240.JPG)
+I'm a junior CS major. On campus, I'm involved in RCOS, ACM-W, Coding&&Community, and RPI Bhangra. I'm interested in open source (of course) as well as image processing and computer graphics.  
+![Me](/images/me.jpg)
 
 ## Contact
 Github: saprap1  
