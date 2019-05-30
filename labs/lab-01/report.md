@@ -29,15 +29,15 @@ Here are screenshots of the solved RegexOne problems. There were some problems t
 ## Regex Crosswords
 Here are screenshots of the solved Regex Crosswords (I couldn't figure out 2 and 3 of the beginner problems, but managed to solve 1 and 2 of the intermediate to make up for it)  
 * Beatles  
-![beatles](/RegexCrossword/beatles.PNG)  
+![beatles](RegexCrossword/beatles.PNG)  
 * Symbolism  
-![symbolism](/RegexCrossword/symbolism.PNG)  
+![symbolism](RegexCrossword/symbolism.PNG)  
 * Airstrip One  
-![airstripone](/RegexCrossword/airstripone.PNG)  
+![airstripone](RegexCrossword/airstripone.PNG)  
 * Always Remember  
-![alwaysremember](/RegexCrossword/alwaysremember.PNG)  
+![alwaysremember](RegexCrossword/alwaysremember.PNG)  
 * Johnny  
-![johnny](/RegexCrossword/johnny.PNG)  
+![johnny](RegexCrossword/johnny.PNG)  
 
 ## Blockly
 This is my solution to the blockly challenge.  
