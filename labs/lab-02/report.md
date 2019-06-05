@@ -17,6 +17,6 @@ Learn Git branching
 * Git diff screenshot:  
 ![](images/git-diff.PNG)  
 * Git tag screenshot:  
-![](images/git-tag/PNG)  
+![](images/git-tag.PNG)  
 * Link to the table's common repository can be found [here](https://github.com/oakleyaidan21/OSSProjectIdeas/tree/master/Spring2019)  
 
