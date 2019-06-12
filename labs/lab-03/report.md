@@ -1,6 +1,9 @@
-#Lab 3
+# Lab 3
 
 ## Part 1
+* I updated my wiki [here](https://github.com/saprap1/OSS-labs/wiki)  
+* Latex exercise 1  
+![](latex-sqrt.PNG)  
 
 
 ## Part 2
