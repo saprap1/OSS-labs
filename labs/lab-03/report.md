@@ -4,7 +4,8 @@
 * I updated my wiki [here](https://github.com/saprap1/OSS-labs/wiki)  
 * Latex exercise 1  
 ![](latex-sqrt.PNG)  
-
+* Latex exercise 2
+![](latex-matrix.PNG)  
 
 ## Part 2
 ### Project: Open Circuits
@@ -29,10 +30,10 @@
 	- This project is 807 days old with about 155 active days
 	- There are 246 files in this project, which seems like a lot to me
 
-Link to Gource video:
+Gource video is in this directory in this repo.  
 
 Findings from other projects:  
-Automatic Door Control  
+Automatic Door Control
 * 3 contributors
 * 1068 lines of code
 * first commit: "Initial commit" on Jan 26, 2018
@@ -40,14 +41,14 @@ Automatic Door Control
 * 1 current branch:
 	* master
 
-LATE  
+LATE
 * 13 contriburos
 * 38850 lines of code
 * first commit: September 8, 2018
 * latest commit: June 7, 2019
 * 11 current branches
 
-AutoGrading  
+AutoGrading
 * 12 contributors
 * 761878 lines of code
 * first commit: "Initial commit" on Sep 15, 2017
