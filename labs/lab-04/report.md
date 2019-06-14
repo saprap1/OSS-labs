@@ -9,13 +9,9 @@
 Website | License Present | License
 ---------|:----------|:-------
 https://github.com/nicklczk/howareyou | Yes | MIT
----------|:----------|:-------
 https://github.com/wtg/shuttletracker | Yes | GNU Affero General Public License v3.0
----------|:----------|:-------
 https://github.com/rmarathay/hedgehogs | Yes | MIT
----------|:----------|:-------
 https://github.com/kool814/clickbaitchromeextension | Yes | MIT
----------|:----------|:-------
 https://github.com/codingandcommunity/rcos-open-source-curriculum-project | Yes | MIT
 
 
