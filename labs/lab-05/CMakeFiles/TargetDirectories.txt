@@ -1,0 +1,3 @@
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/CMakeFiles/edit_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/CMakeFiles/rebuild_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/CMakeFiles/Tutorial.dir
