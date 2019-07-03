@@ -13,5 +13,5 @@ Step 5:
 
 
 ## Makefile for LabExample
-- [Here](/LabExample/Makefile) is the link to my Makefile (makefile still gives an error, I suspect it's something to do with my $PATH but I haven't been able to figure it out)  
-- [Here](/LabExample/CMakeLists.txt) is the link to my CMakeLists.txt  
+- [Here](./LabExample/Makefile) is the link to my Makefile (makefile still gives an error, I suspect it's something to do with my $PATH but I haven't been able to figure it out)  
+- [Here](./LabExample/CMakeLists.txt) is the link to my CMakeLists.txt  
