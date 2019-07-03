@@ -13,5 +13,26 @@ Step 5:
 
 
 ## Makefile for LabExample
-- [Here](./LabExample/Makefile) is the link to my Makefile (makefile still gives an error, I suspect it's something to do with my $PATH but I haven't been able to figure it out)  
-- [Here](./LabExample/CMakeLists.txt) is the link to my CMakeLists.txt  
+- Here is the code for my Makefile (makefile gave an error, I suspect it's something to do with my $PATH but I haven't been able to figure it out)  
+```
+CC=gcc
+all:
+	LabExample
+
+labExample: block.out myLib.a
+	$(CC) -fPIC source/block.c	-o block.out
+
+myLib:
+		ar qc libblock.a block.out
+		ar t libblock.a
+
+libs: myLib.a
+
+sharedLib.so:
+		$(CC) -shared -o sharedLib.so
+
+clean:
+	rm -f myProgram *.out *.a 
+```
+
+- [Here](./Lab-Example/CMakeLists.txt) is the link to my CMakeLists.txt  
