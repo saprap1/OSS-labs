@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/LabExample.dir/source/block.c.o  -o LabExample -rdynamic libmyLib.a 
