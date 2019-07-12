@@ -13,7 +13,7 @@ double mysqrt(double x)
 
   // if we have both log and exp then use them
   #if defined(HAVE_LOG) && defined (HAVE_EXP)
-    double result = exp(log(x)*0.5);
+    result = exp(log(x)*0.5);
     std::cout << "Computing sqrt of " << x << " to be " << result << " using log" << std::endl;
   #else
 
@@ -26,5 +26,7 @@ double mysqrt(double x)
     result = result + 0.5 * delta / result;
     std::cout << "Computing sqrt of " << x << " to be " << result << std::endl;
   }
+
+  #endif
   return result;
 }

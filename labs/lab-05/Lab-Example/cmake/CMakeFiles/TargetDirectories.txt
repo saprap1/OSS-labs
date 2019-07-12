@@ -1,0 +1,6 @@
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/rebuild_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/myLib.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/edit_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/LabExample.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/sharedLib.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake/CMakeFiles/LabExampleShared.dir

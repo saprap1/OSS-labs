@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/LabExample.dir/program.c.o  -o LabExample -rdynamic libmyLib.a 

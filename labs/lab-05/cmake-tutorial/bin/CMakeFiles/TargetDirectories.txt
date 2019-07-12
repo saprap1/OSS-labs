@@ -1,0 +1,16 @@
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/list_install_components.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/install.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/rebuild_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/edit_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/Tutorial.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/install/local.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/install/strip.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/CMakeFiles/test.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/list_install_components.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/install.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/rebuild_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/edit_cache.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/MathFunctions.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/install/strip.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/install/local.dir
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/MathFunctions/CMakeFiles/test.dir

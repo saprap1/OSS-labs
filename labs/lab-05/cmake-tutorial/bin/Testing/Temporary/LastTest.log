@@ -1,3 +1,94 @@
-Start testing: Jul 01 01:20 DST
+Start testing: Jul 11 21:25 DST
 ----------------------------------------------------------
-End testing: Jul 01 01:20 DST
+1/5 Testing: Runs
+1/5 Test: Runs
+Command: "/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial" "25"
+Directory: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin
+"Runs" start time: Jul 11 21:25 DST
+Output:
+----------------------------------------------------------
+Computing sqrt of 25 to be 5 using log
+The square root of 25 is 5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Runs" end time: Jul 11 21:25 DST
+"Runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Usage
+2/5 Test: Usage
+Command: "/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial"
+Directory: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin
+"Usage" start time: Jul 11 21:25 DST
+Output:
+----------------------------------------------------------
+Usage: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial number
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage:.*number
+]
+"Usage" end time: Jul 11 21:25 DST
+"Usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Comp25
+3/5 Test: Comp25
+Command: "/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial" "25"
+Directory: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin
+"Comp25" start time: Jul 11 21:25 DST
+Output:
+----------------------------------------------------------
+Computing sqrt of 25 to be 5 using log
+The square root of 25 is 5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"Comp25" end time: Jul 11 21:25 DST
+"Comp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Comp-25
+4/5 Test: Comp-25
+Command: "/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial" "-25"
+Directory: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin
+"Comp-25" start time: Jul 11 21:25 DST
+Output:
+----------------------------------------------------------
+The square root of -25 is 0
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[-25 is [-nan|nan|0]
+]
+"Comp-25" end time: Jul 11 21:25 DST
+"Comp-25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Comp0.0001
+5/5 Test: Comp0.0001
+Command: "/mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin/Tutorial" "0.0001"
+Directory: /mnt/c/open-source-software/OSS-labs/labs/lab-05/cmake-tutorial/bin
+"Comp0.0001" start time: Jul 11 21:25 DST
+Output:
+----------------------------------------------------------
+Computing sqrt of 0.0001 to be 0.01 using log
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[0.0001 is 0.01
+]
+"Comp0.0001" end time: Jul 11 21:25 DST
+"Comp0.0001" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 11 21:25 DST

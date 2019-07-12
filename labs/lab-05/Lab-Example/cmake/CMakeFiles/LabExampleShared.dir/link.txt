@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/LabExampleShared.dir/program.c.o  -o LabExampleShared -rdynamic libsharedLib.so -Wl,-rpath,/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/cmake 

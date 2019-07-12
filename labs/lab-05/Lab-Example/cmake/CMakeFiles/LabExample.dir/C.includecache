@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/headers/block.h
+
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/program.c
+headers/block.h
+/mnt/c/open-source-software/OSS-labs/labs/lab-05/Lab-Example/headers/block.h
+

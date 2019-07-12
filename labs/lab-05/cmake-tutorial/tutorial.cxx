@@ -5,6 +5,9 @@
 #include <string>
 
 #include "TutorialConfig.h"
+#ifdef USE_MYMATH
+#include "MathFunctions.h"
+#endif
 
 int main(int argc, char* argv[])
 {
@@ -14,10 +17,6 @@ int main(int argc, char* argv[])
   }
 
   double inputValue = atof(argv[1]);
-//  int CMAKE_CXX_STANDARD_REQUIRED = 11;
-//  bool REQUIRED = true;
-
-  // double outputValue = sqrt(inputValue);
 
   #ifdef USE_MYMATH
   double outputValue = mysqrt(inputValue);
