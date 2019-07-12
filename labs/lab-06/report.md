@@ -1,6 +1,6 @@
 ## Lab 6
 
-# Example00
+# Example 00
 Scary whale:  
 ![](scary-whale.PNG)  
 
