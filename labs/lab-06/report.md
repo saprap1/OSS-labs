@@ -13,6 +13,9 @@ Cowsay:
 # Example 02
 Was able to get Mongo and RocketChat containers runnning, however, had an issue connecting to the port on localhost. It looks like the port gets forwarded when I do a ```docker ps```, but localhost:3000 never makes a connection and loads.  
 
+Update: got rocketchat to work after help from Mattermost chat  
+![](rocketchat.PNG)  
+
 # Example 03
 It was very sraightforward to make the Dockerfile and get the hello server running:  
 ![](docker-hello.PNG)  
