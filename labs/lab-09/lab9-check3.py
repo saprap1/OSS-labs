@@ -10,6 +10,8 @@ from tensorflow import keras
 # Helper libraries
 import numpy as np
 import matplotlib.pyplot as plt
+from PIL import Image
+from PIL import ImageOps
 
 
 def plot_image(i, predictions_array, true_label, img):
@@ -51,6 +53,25 @@ print(tf.__version__)
 fashion_mnist = keras.datasets.fashion_mnist
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+# test_images.clear()
+# test_labels.clear()
+
+# im = Image.open("sandal-1.PNG")
+# im_gray = ImageOps.grayscale(im)
+# im_gray_size = im_gray.resize((28,28))
+
+# im2 = Image.open("sandal-2.PNG")
+# im2_gray = ImageOps.grayscale(im2)
+# im2_gray_size = im2_gray.resize((28,28))
+
+# im3 = Image.open("sandal-3.PNG")
+# im3_gray = ImageOps.grayscale(im3)
+# im3_gray_size = im3_gray.resize((28,28))
+
+
+# test_images = [im, im2, im3]
+# test_labels = ["sandal", "sandal", "sandal"]
+
 
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
@@ -105,13 +126,14 @@ print("First prediction", predictions[0])
 print("Which label has the highest confidence?", np.argmax(predictions[0]))
 print("What is the test label? If it matches, the prediction is correct.", test_labels[0])
 
+'''
 i = 0
 plt.figure(figsize=(6,3))
 plt.subplot(1,2,1)
 plot_image(i, predictions, test_labels, test_images)
 plt.subplot(1,2,2)
 plot_value_array(i, predictions,  test_labels)
-#plt.show()
+# plt.show()
 
 i = 12
 plt.figure(figsize=(6,3))
@@ -120,7 +142,7 @@ plot_image(i, predictions, test_labels, test_images)
 plt.subplot(1,2,2)
 plot_value_array(i, predictions,  test_labels)
 #plt.show()
-
+'''
 # Plot the first X test images, their predicted label, and the true label
 # Color correct predictions in blue, incorrect predictions in red
 '''
@@ -136,7 +158,7 @@ for i in range(num_images):
 print("0-11")
 plt.show()
 '''
-
+'''
 num_rows = 5
 num_cols = 3
 num_images = num_rows*num_cols
@@ -167,5 +189,88 @@ plt.xticks(range(10), class_names, rotation=45)
 
 prediction_result = np.argmax(predictions_single[0])
 print("prediction result", prediction_result)
+'''
+
+im = Image.open("sandal-1.PNG")
+im_gray = ImageOps.grayscale(im)
+im_gray_size = im_gray.resize((28,28))
+im_gray_size.save("sandal-1-adjust.jpg")
+img1 = (255 - np.reshape(im_gray_size, (28,28)))/255.0
+
+# print(img1.shape)
+
+im2 = Image.open("sandal-2.PNG")
+im2_gray = ImageOps.grayscale(im2)
+im2_gray_size = im2_gray.resize((28,28))
+im2_gray_size.save("sandal-2-adjust.jpg")
+img2 = (255 - np.reshape(im2_gray_size, (28,28)))/255.0
+
+im3 = Image.open("sandal-3.PNG")
+im3_gray = ImageOps.grayscale(im3)
+im3_gray_size = im3_gray.resize((28,28))
+im3_gray_size.save('sandal-3-adjust.jpg')
+img3 = (255 - np.reshape(im3_gray_size, (28,28)))/255.0
+'''
+imgs = [img1, img2, img3]
+pred = model.predict(imgs)
+
+plt.figure(figsize=(2*2*num_cols, 2*num_rows))
+for i in range(num_images):
+  plt.subplot(num_rows, 2*num_cols, 2*i+1)
+  plot_image(i, pred, test_labels, test_images)
+  plt.subplot(num_rows, 2*num_cols, 2*i+2)
+  plot_value_array(i, pred, test_labels)
+# print("9000-9014")
+plt.show()
+'''
+# Grab an image from the test dataset
+# img1.show()
+# img = img1
+# print("shape of first test image", img.shape)
+
+# img.show()
+
+# Add the image to a batch where it's the only member.
+img1 = (np.expand_dims(img1,0))
+print(img1.shape)
+
+# Predict the image
+predictions_single = model.predict(img1)
+print(predictions_single)
+
+plot_value_array(0, predictions_single, test_labels)
+plt.xticks(range(10), class_names, rotation=45)
+#plt.show()
+
+prediction_result = np.argmax(predictions_single[0])
+print("prediction result for sandal 1...", prediction_result, class_names[prediction_result])
 
 
+img2 = (np.expand_dims(img2,0))
+print(img1.shape)
+
+# Predict the image
+predictions_single = model.predict(img2)
+print(predictions_single)
+
+plot_value_array(0, predictions_single, test_labels)
+plt.xticks(range(10), class_names, rotation=45)
+#plt.show()
+
+prediction_result = np.argmax(predictions_single[0])
+print("prediction result for sandal 2...", prediction_result, class_names[prediction_result])
+
+
+img3 = (np.expand_dims(img3,0))
+print(img1.shape)
+
+# Predict the image
+predictions_single = model.predict(img3)
+print(predictions_single)
+
+plot_value_array(0, predictions_single, test_labels)
+plt.xticks(range(10), class_names, rotation=45)
+#plt.show()
+
+prediction_result = np.argmax(predictions_single[0])
+print("prediction result for sandal 3...", prediction_result, class_names[prediction_result])
